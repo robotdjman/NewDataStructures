@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <assert.h>
-#include <timer.h>
+#include <time.h>
 #include <iostream>
 
 class Timer

@@ -35,5 +35,5 @@ void Timer :: displayInformation()
 }
 long Timer :: getTimeInMicroseconds()
 {
-    return exeuctionTime;
+    return executionTime;
 }
