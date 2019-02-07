@@ -7,21 +7,23 @@
 //
 
 #include "Controller.hpp"
+#include "FileController.hpp"
+#include <iostream>
 
+using namespace std;
 void Controller :: start()
 {
-    string answer;
-    int apples [] {16, 2, 77, 40, 1123};
-    cout << "You have ";
-    cout << apples[1];
-    cout << " apples!" << endl;
-    cout << "What basket do you want to see?" << endl;
-    getline(cin, answer);
-    cout << "There are ";
-    cout << apples[stoi(answer)] << endl;
-    AddNumber();
+    FileController fileController;
+    fileController.readCrimeDataToVector("crime.csv");
+    fileController.musicDataToVector("music.csv");
 }
-void Controller :: AddNumber()
+
+void Controller :: usingNodes()
 {
-    cout << "Yay" << endl;
+    LinearNode<int> mine(5);
+    LinearNode<string> wordHolder("words can be stored too");
+    cout << mine.getData() << endl;
+    wordHolder.setData("replaced text");
+    cout << wordHolder.getData() << endl;
 }
+
