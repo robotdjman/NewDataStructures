@@ -18,5 +18,6 @@ class Controller
 public:
     void start();
     void AddNumber();
+    
 };
 #endif /* Controller_hpp */
