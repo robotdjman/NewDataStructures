@@ -30,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F311DA64221F28840031330E /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		F311DA65221F2E5D0031330E /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		F33DF1DD220CBA75003B686D /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
 		F33DF1DE220CBA75003B686D /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		F33DF1E2220CBAA1003B686D /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		F33DF1DC220CBA65003B686D /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				F311DA65221F2E5D0031330E /* CircularList.hpp */,
 				F33DF1DD220CBA75003B686D /* List.cpp */,
 				F33DF1DE220CBA75003B686D /* List.hpp */,
 				F39F7D3B2211F9F3002A5E51 /* LinkedList.hpp */,
@@ -83,6 +86,7 @@
 			children = (
 				F33DF1E2220CBAA1003B686D /* LinearNode.hpp */,
 				F39F7D3D221203BA002A5E51 /* Node.hpp */,
+				F311DA64221F28840031330E /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
