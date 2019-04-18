@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F33DF1DF220CBA75003B686D /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F33DF1DD220CBA75003B686D /* List.cpp */; };
+		F3466F122266512A0077B01E /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3466F102266512A0077B01E /* BinaryTreeTester.cpp */; };
+		F361619A224014E60023CDEA /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3616198224014E60023CDEA /* GraphTester.cpp */; };
+		F361619D224015580023CDEA /* GraphController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F361619B224015580023CDEA /* GraphController.cpp */; };
 		F39F7D3A2211F7E2002A5E51 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F39F7D392211F7E2002A5E51 /* Music.cpp */; };
+		F3A67D18226115E500EA5DDC /* TreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A67D16226115E500EA5DDC /* TreeTester.cpp */; };
 		F3CB768D2214AEE70034C4FF /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CB768B2214AEE70034C4FF /* LinearTester.cpp */; };
 		F3CEF5D2220A140C00F06A8E /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CEF5D0220A140C00F06A8E /* Timer.cpp */; };
 		F3CEF5D6220A1FD100F06A8E /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CEF5D4220A1FD100F06A8E /* FileController.cpp */; };
@@ -35,11 +39,23 @@
 		F33DF1DD220CBA75003B686D /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
 		F33DF1DE220CBA75003B686D /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		F33DF1E2220CBAA1003B686D /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		F3466F102266512A0077B01E /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		F3466F112266512A0077B01E /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		F3466F13226652F20077B01E /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		F3466F14226653DA0077B01E /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		F3616197224014BF0023CDEA /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		F3616198224014E60023CDEA /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		F3616199224014E60023CDEA /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		F361619B224015580023CDEA /* GraphController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphController.cpp; sourceTree = "<group>"; };
+		F361619C224015580023CDEA /* GraphController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphController.hpp; sourceTree = "<group>"; };
 		F39F7D392211F7E2002A5E51 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		F39F7D3B2211F9F3002A5E51 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F39F7D3D221203BA002A5E51 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		F39F7D3E22120D37002A5E51 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
-		F3CB76892214A68A0034C4FF /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		F3A67D152261136700EA5DDC /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		F3A67D16226115E500EA5DDC /* TreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTester.cpp; sourceTree = "<group>"; };
+		F3A67D17226115E500EA5DDC /* TreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeTester.hpp; sourceTree = "<group>"; };
+		F3CB76892214A68A0034C4FF /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		F3CB768B2214AEE70034C4FF /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		F3CB768C2214AEE70034C4FF /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		F3CEF5D0220A140C00F06A8E /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -76,7 +92,9 @@
 				F33DF1DE220CBA75003B686D /* List.hpp */,
 				F39F7D3B2211F9F3002A5E51 /* LinkedList.hpp */,
 				F39F7D3E22120D37002A5E51 /* Queue.hpp */,
-				F3CB76892214A68A0034C4FF /* Stack.h */,
+				F3CB76892214A68A0034C4FF /* Stack.hpp */,
+				F3466F13226652F20077B01E /* Tree.h */,
+				F3466F14226653DA0077B01E /* BinarySearchTree.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -84,6 +102,7 @@
 		F33DF1E0220CBA92003B686D /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				F3A67D152261136700EA5DDC /* BinaryTreeNode.h */,
 				F33DF1E2220CBAA1003B686D /* LinearNode.hpp */,
 				F39F7D3D221203BA002A5E51 /* Node.hpp */,
 				F311DA64221F28840031330E /* DoubleNode.hpp */,
@@ -91,11 +110,33 @@
 			path = Nodes;
 			sourceTree = "<group>";
 		};
+		F36161962240149F0023CDEA /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+				F3616197224014BF0023CDEA /* Graph.hpp */,
+			);
+			name = NonLinear;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F3A67D142261134C00EA5DDC /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		F3CB768A2214AE620034C4FF /* Testers */ = {
 			isa = PBXGroup;
 			children = (
 				F3CB768B2214AEE70034C4FF /* LinearTester.cpp */,
 				F3CB768C2214AEE70034C4FF /* LinearTester.hpp */,
+				F3616198224014E60023CDEA /* GraphTester.cpp */,
+				F3616199224014E60023CDEA /* GraphTester.hpp */,
+				F3A67D16226115E500EA5DDC /* TreeTester.cpp */,
+				F3A67D17226115E500EA5DDC /* TreeTester.hpp */,
+				F3466F102266512A0077B01E /* BinaryTreeTester.cpp */,
+				F3466F112266512A0077B01E /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -145,6 +186,8 @@
 				F3D3FE8421FF9A3E0037F6A2 /* Runner.cpp */,
 				F3CEF5D4220A1FD100F06A8E /* FileController.cpp */,
 				F3CEF5D5220A1FD100F06A8E /* FileController.hpp */,
+				F361619C224015580023CDEA /* GraphController.hpp */,
+				F361619B224015580023CDEA /* GraphController.cpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -152,6 +195,8 @@
 		F3D3FE7E21FF9A160037F6A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F3A67D142261134C00EA5DDC /* Tree */,
+				F36161962240149F0023CDEA /* NonLinear */,
 				F33DF1E0220CBA92003B686D /* Nodes */,
 				F33DF1DC220CBA65003B686D /* Linear */,
 			);
@@ -229,9 +274,13 @@
 			files = (
 				F39F7D3A2211F7E2002A5E51 /* Music.cpp in Sources */,
 				F33DF1DF220CBA75003B686D /* List.cpp in Sources */,
+				F361619D224015580023CDEA /* GraphController.cpp in Sources */,
 				F3CEF5D2220A140C00F06A8E /* Timer.cpp in Sources */,
 				F3CB768D2214AEE70034C4FF /* LinearTester.cpp in Sources */,
+				F3466F122266512A0077B01E /* BinaryTreeTester.cpp in Sources */,
 				F3CEF5ED220A234B00F06A8E /* CrimeData.cpp in Sources */,
+				F361619A224014E60023CDEA /* GraphTester.cpp in Sources */,
+				F3A67D18226115E500EA5DDC /* TreeTester.cpp in Sources */,
 				F3D3FE8321FF9A330037F6A2 /* Controller.cpp in Sources */,
 				F3D3FE8521FF9A3E0037F6A2 /* Runner.cpp in Sources */,
 				F3CEF5D6220A1FD100F06A8E /* FileController.cpp in Sources */,

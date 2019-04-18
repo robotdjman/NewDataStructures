@@ -6,8 +6,8 @@
 //  Copyright © 2019 Metcalfe, Rylan. All rights reserved.
 //
 
-#ifndef Stack_h
-#define Stack_h
+#ifndef Stack_hpp
+#define Stack_hpp
 
 #include "LinkedList.hpp"
 

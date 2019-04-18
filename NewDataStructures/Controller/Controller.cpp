@@ -8,22 +8,23 @@
 
 #include "Controller.hpp"
 #include "FileController.hpp"
+#include "GraphController.hpp"
 #include <iostream>
 
 using namespace std;
 void Controller :: start()
 {
-    FileController fileController;
-    fileController.readCrimeDataToVector("crime.csv");
-    fileController.musicDataToVector("music.csv");
+    
 }
 
 void Controller :: usingNodes()
 {
+    /*
     LinearNode<int> mine(5);
     LinearNode<string> wordHolder("words can be stored too");
     cout << mine.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
+     */
 }
 

@@ -88,6 +88,8 @@ void CircularList<Type> :; add(type item)
     {
         addedNode = new DoubleNode<Type>(item);
         this->front = addedNode;
+        this->end = addedNode;
+        this->end->setNext(addedNode);
     }
     else
     {
@@ -99,6 +101,8 @@ void CircularList<Type> :; add(type item)
     this->end = addedNode;
     this->size++
 }
+
+
 
 template <class Type>
 void CircularList<Type> :: addAtIndex(int index, Type item)

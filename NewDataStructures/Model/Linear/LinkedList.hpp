@@ -35,7 +35,7 @@ public:
     bool contains(Type item);
     
     
-};
+}; 
 LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
