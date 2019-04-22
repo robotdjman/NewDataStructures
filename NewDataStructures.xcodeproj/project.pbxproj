@@ -130,13 +130,13 @@
 			isa = PBXGroup;
 			children = (
 				F3CB768B2214AEE70034C4FF /* LinearTester.cpp */,
-				F3CB768C2214AEE70034C4FF /* LinearTester.hpp */,
 				F3616198224014E60023CDEA /* GraphTester.cpp */,
 				F3616199224014E60023CDEA /* GraphTester.hpp */,
 				F3A67D16226115E500EA5DDC /* TreeTester.cpp */,
 				F3A67D17226115E500EA5DDC /* TreeTester.hpp */,
 				F3466F102266512A0077B01E /* BinaryTreeTester.cpp */,
 				F3466F112266512A0077B01E /* BinaryTreeTester.hpp */,
+				F3CB768C2214AEE70034C4FF /* LinearTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";

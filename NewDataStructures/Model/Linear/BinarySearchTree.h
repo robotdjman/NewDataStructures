@@ -280,4 +280,21 @@ void BinarySearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
         this->root = removeMe;
     }
 }
+
+template <class Type>
+BinarySearchTree<Type> :: ~BinarySearchTree()
+{
+    destroyTree(this->root);
+}
+
+tempalte <class Type>
+void BinarySeacTree<Type> :: destroyTree(binaryTreeNode<Type> * node)
+{
+    if(node != nullptr)
+    {
+        destroyTree(node->getLeftNode());
+        destroyTree(node->getRightNode());
+        delete node;
+    }
+}
 #endif /* BinarySearchTree_h */
