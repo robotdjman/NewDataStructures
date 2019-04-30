@@ -48,6 +48,7 @@
 		F3616199224014E60023CDEA /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		F361619B224015580023CDEA /* GraphController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphController.cpp; sourceTree = "<group>"; };
 		F361619C224015580023CDEA /* GraphController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphController.hpp; sourceTree = "<group>"; };
+		F38696D12278C18D00097A94 /* AVLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
 		F39F7D392211F7E2002A5E51 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		F39F7D3B2211F9F3002A5E51 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F39F7D3D221203BA002A5E51 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F3616197224014BF0023CDEA /* Graph.hpp */,
+				F38696D12278C18D00097A94 /* AVLTree.h */,
 			);
 			name = NonLinear;
 			path = "New Group";
